@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container a:hover{
+    color: #b1d8fc;
+}
+.line {
+    background: #bfe0ff;
+    height: 2px;
+}

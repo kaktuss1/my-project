@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px;
+    width: 400px;
+    height: 450px;
+    background: #bfe0ff;
+    border-radius: 5px;
+    color:rgb(41, 60, 79);
+}
+.posts {
+    padding: 20px;
+}
+.wrapperInp {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperInp a{
+    color: #74b5f2;
+    font-size: 20px;
+}
+.profileImg {
+    background-image: url(../../../public/images/profilepic.jpg);
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
